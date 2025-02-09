@@ -1,0 +1,25 @@
+.toggle-button {
+    width: 223px;
+    border-radius: 10px;
+    background: var(--cust-bg-secondary);
+}
+
+.toggle-button__button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px !important;
+    padding: 11px 16px !important; ;
+    margin: 5px 5px !important;
+    line-height: 19px;
+}
+
+.toggle-button__button--active:hover {
+    background-color: var(--bs-dark);
+    border-color: white;
+}
+
+.toggle-button__button--not-active {
+    background-color: var(--cust-bg-secondary);
+    color: var(--cust-borders);
+    border: none;
+}

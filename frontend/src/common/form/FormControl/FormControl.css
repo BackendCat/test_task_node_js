@@ -1,0 +1,64 @@
+.standard-input-group {
+    max-width: 440px;
+}
+
+.standard-input-group__label {
+    font-weight: 500;
+}
+
+.standard-input-group__control {
+    background: #f4f4f4;
+    border: 1px solid #f4f4f4;
+    border-radius: 10px;
+    padding: 15px 15px;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.standard-input-group__control:focus {
+    background: rgb(244, 244, 244);
+    box-shadow: none;
+    border: 1px solid var(--bs-body-color);
+}
+
+.standard-input-group__eye,
+.standard-input-group__info{
+    position: relative;
+    float: right;
+    margin-top: -40px;
+}
+
+.standard-input-group__eye {
+    margin-right: 18px;
+}
+.standard-input-group__info {
+    margin-right: -35px;
+}
+
+.standard-input-group__eye__icon,
+.standard-input-group__info__icon {
+    width: 20px;
+    height: auto;
+    opacity: 0.75;
+}
+.standard-input-group__info__icon {
+    width: 25px;
+}
+
+.standard-input-group__info__tooltip .tooltip-inner{
+    background-color: white;
+    border: 1px solid var(--bs-body-color);
+    color: var(--bs-body-color);
+    text-align: left;
+}
+
+.standard-input-group__info__tooltip .arrow {
+    color: var(--bs-body-color);
+}
+
+.standard-input-group__info__tooltip__item::before {
+    content: "•";
+    vertical-align: middle;
+    padding-right: 4px;
+}
